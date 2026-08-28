@@ -1,0 +1,5 @@
+split,hazelnut_percent,forest_percent,grassland_percent,sparse_vegetation_percent,arable_land_percent,artificial_surface_percent,linear_artificial_surface_percent
+Training,68.84,24.73,1.39,1.82,0.68,1.12,1.42
+Validation,68.85,24.72,1.36,1.82,0.71,1.14,1.40
+Test,68.85,24.73,1.32,1.82,0.70,1.14,1.43
+Total,68.84,24.73,1.37,1.82,0.69,1.13,1.42

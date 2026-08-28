@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1360" viewBox="0 0 1080 1360" role="img" aria-labelledby="title description">
+  <title id="title">End-to-end research workflow</title>
+  <desc id="description">Parallel Sentinel-2 machine-learning and Pléiades Neo deep-learning workflows for hazelnut mapping, explainability, and evaluation.</desc>
+  <defs>
+    <style>
+      .heading { font: 700 34px Arial, sans-serif; fill: #12205f; }
+      .branch { font: 700 25px Arial, sans-serif; fill: #fff; }
+      .step-title { font: 700 19px Arial, sans-serif; fill: #10233f; }
+      .detail { font: 15px Arial, sans-serif; fill: #26364d; }
+      .number { font: 700 30px Arial, sans-serif; fill: #fff; }
+      .footer-title { font: 700 23px Arial, sans-serif; fill: #34227a; }
+      .footer-text { font: 700 15px Arial, sans-serif; fill: #26364d; }
+    </style>
+    <marker id="green-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17763a"/></marker>
+    <marker id="blue-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2757c7"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.16"/></filter>
+  </defs>
+
+  <rect width="1080" height="1360" fill="#fff"/>
+  <rect x="250" y="24" width="580" height="92" rx="16" fill="#f7f9ff" stroke="#1b2b75" stroke-width="2" filter="url(#shadow)"/>
+  <text x="540" y="65" text-anchor="middle" class="heading">DATA COLLECTION</text>
+  <text x="540" y="94" text-anchor="middle" class="detail">Field survey, LPIS records, satellite imagery, and reference data</text>
+
+  <path d="M 540 116 L 540 135 L 280 135 L 280 154" fill="none" stroke="#17763a" stroke-width="4" marker-end="url(#green-arrow)"/>
+  <path d="M 540 116 L 540 135 L 800 135 L 800 154" fill="none" stroke="#2757c7" stroke-width="4" marker-end="url(#blue-arrow)"/>
+
+  <rect x="40" y="155" width="480" height="58" rx="12" fill="#176b36"/>
+  <text x="280" y="192" text-anchor="middle" class="branch">SENTINEL-2 WORKFLOW</text>
+  <rect x="560" y="155" width="480" height="58" rx="12" fill="#2453c0"/>
+  <text x="800" y="192" text-anchor="middle" class="branch">PLÉIADES NEO WORKFLOW</text>
+
+  <!-- Sentinel-2 branch -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="230" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="230" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="286" text-anchor="middle" class="number">1</text>
+    <text x="122" y="263" class="step-title">Multi-temporal Sentinel-2 imagery</text><text x="122" y="292" class="detail">Six phenological dates; multispectral observations</text>
+
+    <rect x="40" y="340" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="340" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="396" text-anchor="middle" class="number">2</text>
+    <text x="122" y="373" class="step-title">Vegetation indices and phenology</text><text x="122" y="402" class="detail">NDVI, SAVI, EVI, and temporal-response analysis</text>
+
+    <rect x="40" y="450" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="450" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="506" text-anchor="middle" class="number">3</text>
+    <text x="122" y="483" class="step-title">Multi-temporal feature stacks</text><text x="122" y="512" class="detail">72-band and 60-band analysis configurations</text>
+
+    <rect x="40" y="560" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="560" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="616" text-anchor="middle" class="number">4</text>
+    <text x="122" y="593" class="step-title">Training and test samples</text><text x="122" y="622" class="detail">Stratified sampling; 80% training and 20% testing</text>
+
+    <rect x="40" y="670" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="670" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="726" text-anchor="middle" class="number">5</text>
+    <text x="122" y="703" class="step-title">LULC classification</text><text x="122" y="732" class="detail">RF, Extra Trees, XGBoost, LightGBM, and CatBoost</text>
+
+    <rect x="40" y="780" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="780" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="836" text-anchor="middle" class="number">6</text>
+    <text x="122" y="813" class="step-title">Explainable AI with SHAP</text><text x="122" y="842" class="detail">Global, local, spectral, and phenological analyses</text>
+
+    <rect x="40" y="890" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="890" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="946" text-anchor="middle" class="number">7</text>
+    <text x="122" y="923" class="step-title">SHAP-guided feature subsets</text><text x="122" y="952" class="detail">Reduced combinations and model retraining</text>
+
+    <rect x="40" y="1000" width="480" height="92" rx="12" fill="#f6fbf7" stroke="#17763a" stroke-width="2"/>
+    <rect x="40" y="1000" width="62" height="92" rx="12" fill="#176b36"/><text x="71" y="1056" text-anchor="middle" class="number">8</text>
+    <text x="122" y="1033" class="step-title">Classification evaluation</text><text x="122" y="1062" class="detail">Accuracy, F1, IoU, class areas, and visual review</text>
+  </g>
+
+  <g stroke="#17763a" stroke-width="3" marker-end="url(#green-arrow)">
+    <path d="M280 322 V337"/><path d="M280 432 V447"/><path d="M280 542 V557"/><path d="M280 652 V667"/><path d="M280 762 V777"/><path d="M280 872 V887"/><path d="M280 982 V997"/>
+  </g>
+
+  <!-- Pléiades Neo branch -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="230" width="480" height="142" rx="12" fill="#f6f8ff" stroke="#2757c7" stroke-width="2"/>
+    <rect x="560" y="230" width="62" height="142" rx="12" fill="#2453c0"/><text x="591" y="312" text-anchor="middle" class="number">1</text>
+    <text x="642" y="275" class="step-title">Very-high-resolution imagery</text><text x="642" y="306" class="detail">Pléiades Neo RGB and panchromatic data</text><text x="642" y="332" class="detail">0.30 m pan-sharpened spatial resolution</text>
+
+    <rect x="560" y="400" width="480" height="142" rx="12" fill="#f6f8ff" stroke="#2757c7" stroke-width="2"/>
+    <rect x="560" y="400" width="62" height="142" rx="12" fill="#2453c0"/><text x="591" y="482" text-anchor="middle" class="number">2</text>
+    <text x="642" y="445" class="step-title">Image preprocessing</text><text x="642" y="476" class="detail">Orthorectification and pan-sharpening</text><text x="642" y="502" class="detail">Radiometric and spatial quality checks</text>
+
+    <rect x="560" y="570" width="480" height="142" rx="12" fill="#f6f8ff" stroke="#2757c7" stroke-width="2"/>
+    <rect x="560" y="570" width="62" height="142" rx="12" fill="#2453c0"/><text x="591" y="652" text-anchor="middle" class="number">3</text>
+    <text x="642" y="615" class="step-title">GEOBIA reference-label production</text><text x="642" y="646" class="detail">Object-based segmentation and expert labeling</text><text x="642" y="672" class="detail">Image-mask patch generation for VHRHazelSeg</text>
+
+    <rect x="560" y="740" width="480" height="142" rx="12" fill="#f6f8ff" stroke="#2757c7" stroke-width="2"/>
+    <rect x="560" y="740" width="62" height="142" rx="12" fill="#2453c0"/><text x="591" y="822" text-anchor="middle" class="number">4</text>
+    <text x="642" y="785" class="step-title">Deep-learning segmentation</text><text x="642" y="816" class="detail">U-Net++, DeepLabv3+, and SegFormer</text><text x="642" y="842" class="detail">Training, validation, and independent testing</text>
+
+    <rect x="560" y="910" width="480" height="142" rx="12" fill="#f6f8ff" stroke="#2757c7" stroke-width="2"/>
+    <rect x="560" y="910" width="62" height="142" rx="12" fill="#2453c0"/><text x="591" y="992" text-anchor="middle" class="number">5</text>
+    <text x="642" y="955" class="step-title">Segmentation evaluation</text><text x="642" y="986" class="detail">Accuracy, precision, recall, F1, and IoU</text><text x="642" y="1012" class="detail">Confusion matrices and visual comparison</text>
+  </g>
+  <g stroke="#2757c7" stroke-width="3" marker-end="url(#blue-arrow)">
+    <path d="M800 372 V397"/><path d="M800 542 V567"/><path d="M800 712 V737"/><path d="M800 882 V907"/>
+  </g>
+
+  <path d="M280 1092 V1120 H540" fill="none" stroke="#17763a" stroke-width="4"/>
+  <path d="M800 1052 V1120 H540" fill="none" stroke="#2757c7" stroke-width="4" marker-end="url(#blue-arrow)"/>
+  <rect x="40" y="1140" width="1000" height="176" rx="16" fill="#faf9ff" stroke="#432f93" stroke-width="2" filter="url(#shadow)"/>
+  <text x="540" y="1178" text-anchor="middle" class="footer-title">RESULTS AND INTEGRATED ASSESSMENT</text>
+  <line x1="315" y1="1192" x2="315" y2="1288" stroke="#b6abd9"/><line x1="560" y1="1192" x2="560" y2="1288" stroke="#b6abd9"/><line x1="805" y1="1192" x2="805" y2="1288" stroke="#b6abd9"/>
+  <text x="175" y="1230" text-anchor="middle" class="footer-text">Phenology and frost</text><text x="175" y="1255" text-anchor="middle" class="footer-text">monitoring</text>
+  <text x="438" y="1230" text-anchor="middle" class="footer-text">Province-scale LULC</text><text x="438" y="1255" text-anchor="middle" class="footer-text">classification and SHAP</text>
+  <text x="682" y="1230" text-anchor="middle" class="footer-text">VHR semantic</text><text x="682" y="1255" text-anchor="middle" class="footer-text">segmentation</text>
+  <text x="923" y="1230" text-anchor="middle" class="footer-text">Cross-scale accuracy</text><text x="923" y="1255" text-anchor="middle" class="footer-text">and visual evaluation</text>
+</svg>

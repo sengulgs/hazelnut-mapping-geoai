@@ -1,0 +1,12 @@
+class_name,rgb_code,area_hectares
+Hazelnut,238-128-5,7575.54
+Forest,128-255-0,2779.72
+Grassland,204-242-77,169.24
+Sparsely vegetated area,204-255-204,218.24
+Arable land,255-255-168,72.84
+Artificial surface,255-0-0,123.15
+Linear artificial surface,204-0-0,153.13
+River,-,9.61
+Inland water body,-,0.30
+Rocky / bare area,-,11.39
+Cloud,-,82.43

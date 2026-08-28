@@ -1,0 +1,12 @@
+class_code,class_name,train_area_percent,test_area_percent,train_polygon_share,test_polygon_share
+10,Hazelnut,79.67,20.33,0.80,0.20
+20,Forest,80.36,19.64,0.80,0.20
+30,Permanent crops,80.30,19.70,0.80,0.20
+50,Grassland,80.03,19.97,0.80,0.20
+60,Sparsely vegetated areas,78.61,21.39,0.80,0.20
+70,Arable land,75.51,24.49,0.80,0.20
+80,Artificial surfaces,78.01,21.99,0.80,0.20
+90,Linear artificial surfaces,77.67,22.33,0.80,0.20
+100,Rivers,78.96,21.04,0.80,0.20
+110,Inland water bodies,78.85,21.15,0.80,0.20
+120,Wetlands,78.57,21.43,0.79,0.21

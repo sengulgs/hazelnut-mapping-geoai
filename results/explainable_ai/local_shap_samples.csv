@@ -1,0 +1,23 @@
+true_class,predicted_class,sample_id
+Hazelnut,Hazelnut,379
+Hazelnut,Hazelnut,380
+Hazelnut,Hazelnut,402
+Hazelnut,Hazelnut,451
+Hazelnut,Hazelnut,491
+Hazelnut,Hazelnut,506
+Hazelnut,Hazelnut,518
+Hazelnut,Hazelnut,538
+Hazelnut,Hazelnut,568
+Hazelnut,Hazelnut,570
+Hazelnut,Permanent crops,382
+Hazelnut,Arable land*,394
+Hazelnut,Arable land,565
+Hazelnut,Sparsely vegetated areas,433
+Hazelnut,Sparsely vegetated areas,555
+Hazelnut,Sparsely vegetated areas,560
+Permanent crops,Hazelnut,679
+Permanent crops,Hazelnut,715
+Permanent crops,Hazelnut,731
+Permanent crops,Hazelnut,769
+Permanent crops,Hazelnut,827
+Linear artificial surface,Hazelnut,1068

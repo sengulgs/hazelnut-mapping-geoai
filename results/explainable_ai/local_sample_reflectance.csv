@@ -1,0 +1,32 @@
+sample_id,true_class,predicted_class,band,D1,D2,D3,D4,D5,D6
+379,Hazelnut,Hazelnut,Red Edge 1,650,1093,1092,1122,1085,923
+379,Hazelnut,Hazelnut,Red Edge 2,1165,2059,3760,2946,2794,2104
+379,Hazelnut,Hazelnut,Red Edge 3,1428,2363,4620,3632,3313,2567
+379,Hazelnut,Hazelnut,NIR,1592,2562,4716,3822,3742,2939
+379,Hazelnut,Hazelnut,Red Edge 4,1632,2700,5012,4154,3875,3095
+379,Hazelnut,Hazelnut,SWIR 1,1244,1942,2533,2491,2458,2294
+379,Hazelnut,Hazelnut,SWIR 2,778,1170,1214,1204,1247,1198
+379,Hazelnut,Hazelnut,,,,,,,
+382,Hazelnut,Permanent crops,Red Edge 1,1054,1055,1168,974,1116,802
+382,Hazelnut,Permanent crops,Red Edge 2,3138,3354,2490,2632,2072,2155
+382,Hazelnut,Permanent crops,Red Edge 3,3620,3948,3023,3133,2442,2611
+382,Hazelnut,Permanent crops,NIR,3794,4296,4308,3216,2708,2746
+382,Hazelnut,Permanent crops,Red Edge 4,3845,4160,3306,3471,2821,2921
+382,Hazelnut,Permanent crops,SWIR 1,1854,1655,2621,2354,2732,1947
+382,Hazelnut,Permanent crops,SWIR 2,985,831,1566,1249,1700,1004
+382,Hazelnut,Permanent crops,,,,,,,
+394,Hazelnut,Arable land / Forest,Red Edge 1,940,1340,1105,967,888,732
+394,Hazelnut,Arable land / Forest,Red Edge 2,1165,1848,2705,2335,2355,1581
+394,Hazelnut,Arable land / Forest,Red Edge 3,1254,1979,2370,2738,2904,1862
+394,Hazelnut,Arable land / Forest,NIR,1300,2238,3256,2728,3032,1914
+394,Hazelnut,Arable land / Forest,Red Edge 4,1402,2063,3557,2972,3143,2028
+394,Hazelnut,Arable land / Forest,SWIR 1,1509,1751,1850,1838,1630,1470
+394,Hazelnut,Arable land / Forest,SWIR 2,1050,1215,1013,1087,938,834
+394,Hazelnut,Arable land / Forest,,,,,,,
+827,Permanent crops,Hazelnut,Red Edge 1,1229,1205,1159,1079,1142,1074
+827,Permanent crops,Hazelnut,Red Edge 2,2597,3074,3123,2498,2506,2132
+827,Permanent crops,Hazelnut,Red Edge 3,2866,3501,3708,3065,2843,2610
+827,Permanent crops,Hazelnut,NIR,3296,4152,3532,3034,3228,2873
+827,Permanent crops,Hazelnut,Red Edge 4,3227,3894,4018,3546,3374,3048
+827,Permanent crops,Hazelnut,SWIR 1,2042,1984,3648,2626,2719,2484
+827,Permanent crops,Hazelnut,SWIR 2,1210,1097,1385,1404,1510,1371

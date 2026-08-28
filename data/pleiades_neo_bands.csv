@@ -1,0 +1,8 @@
+Band name,Spectral range (nm),Spatial resolution (m)
+Panchromatic,450 – 800,"0,30"
+Red,620 – 690,"1,20"
+Green,530 – 590,"1,20"
+Blue,450 – 520,"1,20"
+NIR,770 – 880,"1,20"
+Red Edge,700 – 750,"1,20"
+Deep Blue,400 – 450,"1,20"

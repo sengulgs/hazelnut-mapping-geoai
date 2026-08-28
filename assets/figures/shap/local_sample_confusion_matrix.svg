@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="500" viewBox="0 0 1250 500" role="img" aria-labelledby="title description">
+  <title id="title">Local SHAP sample confusion matrix</title>
+  <desc id="description">Counts of correctly and incorrectly classified samples selected for local SHAP analysis across eleven LULC classes.</desc>
+  <style>
+    .header { font: 700 17px Arial, sans-serif; fill: #111; }
+    .label { font: 15px Arial, sans-serif; fill: #111; }
+    .code { font: 15px Arial, sans-serif; fill: #111; }
+    .correct { font: 700 18px Arial, sans-serif; fill: #00a651; }
+    .error { font: 700 18px Arial, sans-serif; fill: #e51c23; }
+    .grid { stroke: #222; stroke-width: 1.4; shape-rendering: crispEdges; }
+  </style>
+  <rect width="1250" height="500" fill="#fff"/>
+
+  <!-- Merged title cell and table grid -->
+  <rect x="410" y="20" width="792" height="40" fill="#fff" class="grid"/>
+  <text x="806" y="46" text-anchor="middle" class="header">Prediction Results</text>
+  <rect x="30" y="60" width="1172" height="420" fill="#fff" class="grid"/>
+
+  <g class="grid">
+    <line x1="350" y1="60" x2="350" y2="480"/>
+    <line x1="410" y1="60" x2="410" y2="480"/>
+    <line x1="482" y1="60" x2="482" y2="480"/>
+    <line x1="554" y1="60" x2="554" y2="480"/>
+    <line x1="626" y1="60" x2="626" y2="480"/>
+    <line x1="698" y1="60" x2="698" y2="480"/>
+    <line x1="770" y1="60" x2="770" y2="480"/>
+    <line x1="842" y1="60" x2="842" y2="480"/>
+    <line x1="914" y1="60" x2="914" y2="480"/>
+    <line x1="986" y1="60" x2="986" y2="480"/>
+    <line x1="1058" y1="60" x2="1058" y2="480"/>
+    <line x1="1130" y1="60" x2="1130" y2="480"/>
+    <line x1="30" y1="95" x2="1202" y2="95"/>
+    <line x1="30" y1="130" x2="1202" y2="130"/>
+    <line x1="30" y1="165" x2="1202" y2="165"/>
+    <line x1="30" y1="200" x2="1202" y2="200"/>
+    <line x1="30" y1="235" x2="1202" y2="235"/>
+    <line x1="30" y1="270" x2="1202" y2="270"/>
+    <line x1="30" y1="305" x2="1202" y2="305"/>
+    <line x1="30" y1="340" x2="1202" y2="340"/>
+    <line x1="30" y1="375" x2="1202" y2="375"/>
+    <line x1="30" y1="410" x2="1202" y2="410"/>
+    <line x1="30" y1="445" x2="1202" y2="445"/>
+  </g>
+
+  <!-- Column headers -->
+  <text x="190" y="84" text-anchor="middle" class="header">LULC Class</text>
+  <text x="380" y="84" text-anchor="middle" class="header">Code</text>
+  <g text-anchor="middle" class="header">
+    <text x="446" y="84">10</text><text x="518" y="84">20</text><text x="590" y="84">30</text>
+    <text x="662" y="84">50</text><text x="734" y="84">60</text><text x="806" y="84">70</text>
+    <text x="878" y="84">80</text><text x="950" y="84">90</text><text x="1022" y="84">100</text>
+    <text x="1094" y="84">110</text><text x="1166" y="84">120</text>
+  </g>
+
+  <!-- Row labels and class codes -->
+  <g text-anchor="middle" dominant-baseline="middle">
+    <g class="label">
+      <text x="190" y="112.5">Hazelnut</text><text x="190" y="147.5">Forest</text>
+      <text x="190" y="182.5">Permanent crops</text><text x="190" y="217.5">Grassland</text>
+      <text x="190" y="252.5">Sparsely vegetated areas</text><text x="190" y="287.5">Arable land</text>
+      <text x="190" y="322.5">Artificial surfaces</text><text x="190" y="357.5">Linear artificial surfaces</text>
+      <text x="190" y="392.5">Rivers</text><text x="190" y="427.5">Inland water bodies</text>
+      <text x="190" y="462.5">Wetlands</text>
+    </g>
+    <g class="code">
+      <text x="380" y="112.5">10</text><text x="380" y="147.5">20</text><text x="380" y="182.5">30</text>
+      <text x="380" y="217.5">50</text><text x="380" y="252.5">60</text><text x="380" y="287.5">70</text>
+      <text x="380" y="322.5">80</text><text x="380" y="357.5">90</text><text x="380" y="392.5">100</text>
+      <text x="380" y="427.5">110</text><text x="380" y="462.5">120</text>
+    </g>
+
+    <!-- Correct classifications -->
+    <g class="correct">
+      <text x="446" y="112.5">10+</text><text x="518" y="147.5">10+</text><text x="590" y="182.5">10+</text>
+      <text x="662" y="217.5">9</text><text x="734" y="252.5">0</text><text x="806" y="287.5">10+</text>
+      <text x="878" y="322.5">10+</text><text x="950" y="357.5">10+</text><text x="1022" y="392.5">10+</text>
+      <text x="1094" y="427.5">10+</text><text x="1166" y="462.5">0</text>
+    </g>
+
+    <!-- Misclassifications -->
+    <g class="error">
+      <text x="590" y="112.5">1</text><text x="734" y="112.5">3</text><text x="806" y="112.5">2</text>
+      <text x="590" y="147.5">1</text>
+      <text x="446" y="182.5">5</text><text x="662" y="182.5">1</text><text x="806" y="182.5">4</text>
+      <text x="806" y="217.5">7</text>
+      <text x="590" y="252.5">1</text><text x="806" y="252.5">1</text>
+      <text x="518" y="287.5">1</text><text x="590" y="287.5">3</text><text x="662" y="287.5">2</text><text x="734" y="287.5">1</text>
+      <text x="590" y="322.5">3</text><text x="950" y="322.5">2</text>
+      <text x="446" y="357.5">1</text><text x="590" y="357.5">2</text><text x="662" y="357.5">2</text><text x="878" y="357.5">5</text>
+      <text x="662" y="392.5">1</text><text x="1094" y="392.5">2</text>
+      <text x="734" y="427.5">1</text><text x="806" y="427.5">1</text><text x="878" y="427.5">1</text><text x="1022" y="427.5">1</text>
+      <text x="662" y="462.5">1</text><text x="806" y="462.5">4</text>
+    </g>
+  </g>
+</svg>

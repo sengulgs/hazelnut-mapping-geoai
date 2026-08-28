@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the thesis and this repository when using these materials."
+title: "Determining the Spatial Distribution of Hazelnut Areas in Sakarya Province Using Satellite Data-Based Deep Learning and Explainable Machine Learning Techniques"
+type: dataset
+authors:
+  - family-names: "Şengül"
+    given-names: "Gafur Semi"
+    affiliation: "Istanbul Technical University"
+date-released: 2026-06-22
+repository-code: "https://github.com/sengulgs/hazelnut-mapping-geoai"
+url: "https://github.com/sengulgs/hazelnut-mapping-geoai"
